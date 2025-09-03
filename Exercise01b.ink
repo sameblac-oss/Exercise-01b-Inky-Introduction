@@ -21,6 +21,7 @@ You are at the entrance to a cave. {not torch_pickup:There is a torch on the flo
 + [Take the east tunnel] -> east_tunnel
 + [Take the west tunnel] -> west_tunnel
 * [Pick up the torch] -> torch_pickup 
++ [Go to the river] -> river_bank
 
 == east_tunnel ==
 You are in the east tunnel. It is very dark, you can't see anything. 
@@ -47,7 +48,10 @@ The light of your torch glints off of the thousands of coins in the room. You ar
 The light of your torch reveals ancient paintings in the room. You are rich. 
 -> END
 
-
+=== river_bank ===
+At the river you see a fish. You are hungry but have no fishing rod. Must keep exploring 
++ [Go back] -> cave_mouth
+-> END
 
 
 
